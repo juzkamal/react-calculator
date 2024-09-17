@@ -1,0 +1,35 @@
+.calculator {
+    width: 100%;
+    margin: 50px auto;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    
+}
+  
+input {
+    margin-bottom: 20px;
+    font-size: 30px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: right;
+    border-radius: 5px;
+}
+  
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 5px;
+}
+
+.column-span{
+    grid-column: span 2;
+}
+
+.row-span{
+    grid-row: span 2;
+}
